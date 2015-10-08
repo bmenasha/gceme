@@ -3,7 +3,7 @@ node('docker') {
 
   // Kubernetes cluster info
   def cluster = 'bmenasha-cluster'
-  def zone = 'us-central1-f'
+  def zone = 'us-central1-c'
   def project = 'google-platform-demo'
 
   // Run tests
