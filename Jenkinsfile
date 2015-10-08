@@ -2,7 +2,7 @@ node('docker') {
   checkout scm
 
   // Kubernetes cluster info
-  def cluster = 'gtc'
+  def cluster = 'bmenasha-cluster'
   def zone = 'us-central1-f'
   def project = 'google-platform-demo'
 
